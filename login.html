@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     body{
+        
+       color: #fff;
+      background-image: url(logregimg.jpg);
+       justify-content: center;
+       background-size: cover;
+        background-repeat: no-repeat;
+     }  
+     
+form{
+
+    margin-top: 13rem;
+
+
+    min-width: 200px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding:20px;
+
+
+
+}
+.demo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    text-align: center;
+    margin-top: -10px;
+    font-size: 2.5rem;
+}
+input{
+    margin-bottom: -10px;
+    height: 2rem;
+}
+button{
+    color: brown;
+    height: 3rem;
+    width: 4rem;
+}
+a{
+text-decoration:none;
+}
+
+</style>
+</head>
+<body>
+    <div class="demo"> 
+   
+        <form action="login.jsp" method="post" name="myform">
+            <h3>Login Form</h3>  
+         <input type="text" placeholder="userid" name="user"  autoComplete="off" required/><br><br>
+    
+        <input type="password" placeholder="password" required name="password" autoComplete="off"/><br>
+        <button>Login</button><br/>
+         New User? <a href="register.html">Register here</a>
+        </form>
+        </div>
+        
+        
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     body{
+        background-image: url(logregimg.jpg);
+       color: #fff;
+       background-repeat: no-repeat;
+       background-size: cover;
+     }  
+
+form{
+
+    margin-top: 13rem;
+
+
+    min-width: 200px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding:20px;
+
+
+
+}
+.demo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    text-align: center;
+    margin-top: -10px;
+    font-size: 2.5rem;
+}
+input{
+    margin-bottom: -10px;
+    height: 2rem;
+
+}
+a{
+text-decoration:none;
+}
+
+</style>
+</head>
+<body>
+    <div class="demo"> 
+   
+        <form action="register.jsp" method="post" name="myform">
+            <h3>Registration Form</h3>  
+         <input type="text"  placeholder="First name" name="fname" autoComplete="off" required /><br>
+         <input type="text" placeholder="Last name" name="lname" autoComplete="off" required /><br>
+         <input type="text" placeholder="Email ID" name="email"  autoComplete="off" required/><br>
+        
+         <input type="text"  required placeholder="User name" name="userid" autoComplete="off" /><br>
+        <span id="demo"></span>
+        <input type="password" placeholder="password" required name="password" autoComplete="off"/><br>
+        <button>Regster</button><br/>
+         if already Registered, <a href="index.html">Login</a>
+        </form>
+        </div>
+        
+        
+</body>
+</html>
